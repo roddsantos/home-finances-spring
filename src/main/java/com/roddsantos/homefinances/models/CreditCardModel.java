@@ -44,4 +44,116 @@ public class CreditCardModel implements Serializable {
     @LastModifiedDate()
     private String updatedAt;
     private String deletedAt;
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public Float getLimit() {
+        return limit;
+    }
+
+    public void setLimit(Float limit) {
+        this.limit = limit;
+    }
+
+    public Float getInvoice() {
+        return invoice;
+    }
+
+    public void setInvoice(Float invoice) {
+        this.invoice = invoice;
+    }
+
+    public Number getDay() {
+        return day;
+    }
+
+    public void setDay(Number day) {
+        this.day = day;
+    }
+
+    public Number getMonth() {
+        return month;
+    }
+
+    public void setMonth(Number month) {
+        this.month = month;
+    }
+
+    public Number getYear() {
+        return year;
+    }
+
+    public void setYear(Number year) {
+        this.year = year;
+    }
+
+    public Boolean getClosed() {
+        return isClosed;
+    }
+
+    public void setClosed(Boolean closed) {
+        isClosed = closed;
+    }
+
+    public UserModel getUser() {
+        return user;
+    }
+
+    public void setUser(UserModel user) {
+        this.user = user;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public String getDeletedAt() {
+        return deletedAt;
+    }
+
+    public void setDeletedAt(String deletedAt) {
+        this.deletedAt = deletedAt;
+    }
 }
